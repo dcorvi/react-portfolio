@@ -6,22 +6,21 @@ class Header extends Component {
   render() {
     return (
       <header className="Header">
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-          <NavLink className="navbar-brand" to="/">Dennis Corvi</NavLink>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/index">Home</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/maboard">Projects</NavLink>
-              </li>
+        <nav className="navbar topnav">
+          <NavLink className="navbar-brand topnav" to="/">Dennis Corvi</NavLink>
 
+            <ul className="nav justify-content-end">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/about">About</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact">Contact</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/blog">Blogs</NavLink>
+              </li>
             </ul>
-          </div>
+
         </nav>
       </header>
     );
