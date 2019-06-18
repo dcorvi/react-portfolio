@@ -28,6 +28,8 @@ class MobileDevTab extends Component {
         This native app is a simple Tic-Tac-Toe game that allows the users to play using their fingers on their mobile devices. It takes advantage of the native functions of either the IOS or Android mobile operating systems.
         <br/><br/>
         It was created using React Native. The code is hosted on Github and the mobile emulation is accomplished using Expo.<br/><br/>
+        (Reload this page if you see a blank screen.)
+        <br/>
         Note: wait times for mobile emulation are usually longer in the morning or afternoon.<br/><br/>
         <TTTMobile/>
         </p>
